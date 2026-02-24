@@ -191,7 +191,7 @@
             android:name=".KeepAliveService"
             android:description="@string/keep_alive_service"
             android:enabled="true"
-            android:exported="false" />
+            android:exported="true" />
 
         <service
             android:name=".apis.JobSchedulerAPI$JobSchedulerService"
